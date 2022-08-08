@@ -1,0 +1,37 @@
+JFDML JFormDesigner: "7.0.5.3.411" Java: "11.0.9.1" encoding: "UTF-8"
+
+new FormModel {
+	contentType: "form/swing"
+	root: new FormRoot {
+		add( new FormWindow( "javax.swing.JFrame", new FormLayoutManager( class org.jdesktop.layout.GroupLayout ) {
+			"$horizontalGroup": "par l {seq l {space :p:57:p, par l {comp label4:::p::p, comp label1:::p::p, comp label3::l:p::p, par t:l {comp label5:::p::p, comp label2:::p::p}}, space ::134:x}}"
+			"$verticalGroup": "par l {seq l {space :::p, comp label5:::p::p, space :p:40:p, comp label1:::p::p, space s:::p, comp label2:::p::p, space s:::p, comp label3:::p::p, space s:::p, comp label4:::p::p, space ::83:x}}"
+		} ) {
+			name: "this"
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "label1"
+				"text": "电话号码规则:"
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "label2"
+				"text": "1.电话号码应为数字"
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "label3"
+				"text": "2.如带区号则在区号与号码中间插入-号"
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "label4"
+				"text": "3.电话号码为8位数字,区号为4位数字"
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "label5"
+				"text": "邹辉20192125"
+				"font": new com.jformdesigner.model.SwingDerivedFont( null, 0, 7, false )
+			} )
+		}, new FormLayoutConstraints( null ) {
+			"location": new java.awt.Point( 0, 0 )
+			"size": new java.awt.Dimension( 400, 300 )
+		} )
+	}
+}
